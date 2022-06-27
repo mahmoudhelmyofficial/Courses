@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Courses\\Courses\\Courses\\Courses.csproj": {}
+    "E:\\Courses\\Courses\\Courses.csproj": {}
   },
   "projects": {
-    "E:\\Courses\\Courses\\Courses\\Courses.csproj": {
+    "E:\\Courses\\Courses\\Courses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Courses\\Courses\\Courses\\Courses.csproj",
+        "projectUniqueName": "E:\\Courses\\Courses\\Courses.csproj",
         "projectName": "Courses",
-        "projectPath": "E:\\Courses\\Courses\\Courses\\Courses.csproj",
+        "projectPath": "E:\\Courses\\Courses\\Courses.csproj",
         "packagesPath": "C:\\Users\\Mahmoud Helmy\\.nuget\\packages\\",
-        "outputPath": "E:\\Courses\\Courses\\Courses\\obj\\",
+        "outputPath": "E:\\Courses\\Courses\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahmoud Helmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,19 +46,29 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
